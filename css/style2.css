@@ -168,13 +168,37 @@
 
 @media screen and (max-width: 1400px) {
 
-  .hero-container,
-  nav {
-    display: none;
+  .heading {
+    font-size: 3.8rem;
+      padding: 8px 4px ;
+
+  }
+
+  .top-main{
+    margin-top: -7px;
+    margin-bottom: -30px;
+    gap: 20px;
+  }
+
+  .top{
+    margin-bottom: -31px;
+  }
+
+  .middle {
+    margin-left: 284px;
+  }
+
+  .bottom{
+    margin-top: 9px;
   }
 
   .about-content p {
     width: 100%;
+  }
+
+  .image-group img {
+    border-radius: 30px;
+    height: 320px;
   }
 
   .beyond {
@@ -184,6 +208,12 @@
 }
 
 @media screen and (max-width:768px) {
+
+  .hero-container,
+  nav {
+    display: none;
+  }
+
   .mobe-detail:last-child {
     flex-direction: column;
     line-height: 1;

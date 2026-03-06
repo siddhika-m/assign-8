@@ -210,11 +210,10 @@ nav a {
 
 .middle {
   position: relative;
-  margin-right: 0px;
   margin-left: 346px;
   margin-bottom: -30px;
   border-bottom-left-radius: 50px;
-  border-top-right-radius: 0;
+  border-top-right-radius: 1px;
   border-top-left-radius: 0;
   border-bottom-right-radius: 0;
   border-left: 30px solid var(--Bg-green);
