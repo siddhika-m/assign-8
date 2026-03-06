@@ -116,7 +116,7 @@ nav a {
   font-size: 0.9rem;
   font-family: 'WorkSans', sans-serif;
   font-weight: 500;
-  padding: 16px;
+  padding: 14px;
   color: var(--Bg-green);
 }
 
@@ -173,11 +173,6 @@ nav a {
   left: 545px;
 }
 
-.circle2{
-  top: 371px;
-  left: 865px;
-}
-
 .circle3{
   top: 122px;
   right: 410px;
@@ -211,27 +206,63 @@ nav a {
 .middle {
   position: relative;
   margin-left: 346px;
-  margin-bottom: -30px;
+  margin-bottom: -38px;
   border-bottom-left-radius: 50px;
   border-top-right-radius: 1px;
   border-top-left-radius: 0;
   border-bottom-right-radius: 0;
   border-left: 30px solid var(--Bg-green);
-  border-bottom: 30px solid var(--Bg-green);
+  border-bottom: 37px solid var(--Bg-green);
   z-index: 0;
 }
 
+.middle::after{
+  content: '';
+  display: flex;
+  position: absolute;
+  margin-top: -222px;
+  margin-left: 533px;
+  width: 20px;
+  height: 229px;
+  background-color: var(--Bg-green);
+  border-radius: 5px;
+  border-bottom-left-radius: 11px;
 
+}
+
+.middle::before{
+  content: '';
+  display: flex;
+  position: absolute;
+  margin-top: -4px;
+  margin-left: -21px;
+  width: 20px;
+  height: 119px;
+  background-color: var(--Bg-green);
+  border-radius: 5px;
+
+}
 .bottom {
   border-top-left-radius: 0;
-  margin-top: 25px;
-  margin-left: -14px;
+  margin-top: 26px;
+  margin-left: -20px;
   position: relative;
   z-index: 3;
   border-left: 30px solid var(--Bg-green);
   border-bottom-left-radius: 50px;
 }
 
+.bottom::after{
+  content: '';
+  display: flex;
+  position: absolute;
+  margin-top: -113px;
+  margin-left: -21px;
+  width: 20px;
+  height: 124px;
+  background-color: var(--Bg-green);
+  border-radius: 5px;
+}
 .graph-card {
   background-color: var(--Dark-green);
   border-radius: 12px;
